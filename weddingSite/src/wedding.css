@@ -1,0 +1,139 @@
+* {
+    font-family: 'Amatic SC', cursive;
+  }
+  
+  .font-size {
+    font-size: 25px;
+  }
+  
+  .arrow {
+    position: relative;
+    margin: 0 auto;
+    width: 100px;
+  }
+  
+  .arrow:after {
+      top: -34px;
+      left: 7px;
+      content: '';
+      position: absolute;
+      border: 2px solid #bd2130;
+      border-color: transparent transparent transparent #bd2130;
+      height: 81px;
+      width: 154px;
+      border-radius: 230px 0 0 150px;
+      transform: rotate(174deg);
+  }
+  
+  .point:before {
+    content: '';
+    top: 15px;
+    position: absolute;
+    border-left: 2px solid #bd2130;
+    height: 11px;
+    width: 8px;
+    right: -53px;
+    transform: rotate(-6deg);
+    -webkit-transform: rotate(-6deg);
+  }
+  
+  .point:after {
+    content: '';
+    top: 17px;
+    position: absolute;
+    border-left: 2px solid #bd2130;
+    height: 11px;
+    width: 8px;
+    right: -55px;
+    transform: rotate(-98deg);
+    -webkit-transform: rotate(-98deg);
+  }
+  
+  .btn-outline-danger {
+    border-radius: 25px !important;
+    width: 150px !important;
+    border-color: #dc3545!important;
+  }
+  
+  .btn.btn-danger {
+    border-radius: 25px !important;
+    width: 150px !important;
+    padding: 0 !important;
+  }
+  
+  @media only screen and (max-width: 372px) {
+    .arrow:after {
+      left: 13px;
+    }
+    .point:before {
+      right: -59px;
+    }
+    .point:after {
+      right: -62px;
+    }
+  }
+  
+  @media only screen and (max-width:305px) {
+    .arrow:after {
+      display: none;
+    }
+    .point:before {
+      display: none;
+    }
+    .point:after {
+      display: none;
+    }
+  }
+  
+  input[type='email'] {
+    font-weight: 900;
+  }
+  
+  .google-maps {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    display: block;
+    padding-bottom: 400px;
+    margin-top: 20px;
+    max-width: 1024px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  
+  @media only screen and (min-width:720px) {
+    .bigger {
+      font-size: 35px;
+    }
+  }
+  
+  .addeventatc_dropdown .copyx {
+    display: none !important;
+  }
+  
+  .addeventatc .addeventatc_icon {
+    display: none !important;
+  }
+  
+  #addeventatc1-drop {
+    display: none !important;
+  }
+  .save{
+        padding-top: 30px;
+        font-size: 47px;
+  }
+  .take:hover{
+    background-color:white!important;
+    color:#bd2130!important;
+  }
+  img:after{
+    content:'';
+  }
